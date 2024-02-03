@@ -1,0 +1,20 @@
+.cart-item-btn-container {
+  padding: 10px 10px 0 10px;
+  grid-template-columns: 4fr 4fr 2fr 1fr 2fr;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  text-align: center;
+}
+
+.cart-item-btn-container img {
+  height: 20px;
+}
+
+.delete-btn {
+  padding: 2px;
+}
+
+.delete-btn:hover {
+  background-color: #006cee;
+}
